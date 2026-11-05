@@ -1,6 +1,7 @@
 name: meilisearch
 title: Meilisearch
 icon: meilisearch
+docs: https://wodby.com/docs/2.0/stacks/catalog/meilisearch/
 
 services:
 - name: meilisearch
