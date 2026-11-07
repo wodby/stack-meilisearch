@@ -12,14 +12,3 @@ services:
   volumes:
   - name: data
     size: 10
-  workloads:
-  - name: main
-    containers:
-    - name: meilisearch
-      resources:
-        request:
-          cpu: 200
-          memory: 512
-        limit:
-          cpu: 2000
-          memory: 2048
